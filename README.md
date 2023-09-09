@@ -1,15 +1,5 @@
-# rest-api
+# rest-api(prediction-api
 
-## Demo for a simple RESTful API service.
-- Clone the project and open it in NetBeans
-- MAC OS users may need to change the permissions (chmod in your terminal) for the project folder when they clone or download this repo.
-- Clean and Build the project
-- Run->Set Project Configuration->Customize->Run->Main Class->Browse->Select RestApiDemoApplication.java
-- Run the main method
-- Available endpoints to test on POSTMAN:
-  * http://localhost:8080/hello
-  * http://localhost:8080/greeting
-  * http://localhost:8080/intro
-  * http://localhost:8080/intro?name=jane
-  * http://localhost:8080/quote
-  * http://localhost:8080/univ
+## Demo for a simple Prediction API service.
+-used the rest-API provided by my instructor in the CSC340 class at UNCG(Sunny Ntini).
+The changes I made to their code is the addition of a method called getPrediction in the main to send a request to the API: "https://api.genderize.io/?name=" with a user inputted name and output a prediction of that name's gender with a confidence chance.
